@@ -15,7 +15,7 @@ Add the custom registries for this repository, then add this package.
 ```
 using Pkg
 Pkg.Registry.add(RegistrySpec(url = "https://github.com/RoyCCWang/RWPublicJuliaRegistry"))
-pkg"add NMRSignalSimulator"
+pkg"add PublicationDatasets"
 ```
 
 # Citation
