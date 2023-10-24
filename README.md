@@ -3,6 +3,15 @@ Convenience routines that uses DataDeps.jl to download and store public data set
 
 The main routine is `getdatapath()`, which returns the root folder of the extracted data set.
 
+# Install
+Add the custom registries for this repository, then add this package.
+```
+using Pkg
+Pkg.Registry.add(RegistrySpec(url = "https://github.com/RoyCCWang/RWPublicJuliaRegistry"))
+pkg"add NMRSignalSimulator"
+```
+
+# Citation
 Please cite the individual datasets if you use them in your work. The citation information should be visible to you when DataDeps.jl prompts you to download it. You can also find the citation information for a data set by searching this respoitory for the digital object identifier (DOI) of the data set.
 
 ## Data sets
