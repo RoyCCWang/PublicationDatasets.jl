@@ -6,7 +6,7 @@ The focus of this package is the function `getdatapath`, which returns the root 
 
 To find the composite type associated with a data set, called a *trait* here, use `findtrait(DOI)`, where `DOI` is the DOI of the target data set, stored as a `String`.
 
-Use `getalltraits()` to get all possible traits, You can then check each of their `DOI` fields to get the DOI for all the data sets referenced in this package.
+Use `getalltraits()` to get all possible traits. You can then check each of their `DOI` fields to get the DOI for all the data sets referenced in this package.
 
 See `\examples/demo.jl` for an example.
 
