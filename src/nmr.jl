@@ -1,7 +1,17 @@
 
 ### types for loading NMR experiment data, and to save models and fit results.
 
-struct NMR2023 end
+abstract type DatasetTrait end
+
+# we don't use keyword struct to allow maximum Julia version compatibility.
+
+struct NMR2023 <: DatasetTrait
+    DOI::String
+end
+
+function NMR2023()
+    return NMR2023("10.5281/zenodo.8174260")
+end
 
 function getdatapath(::NMR2023)::String
 
@@ -65,4 +75,15 @@ function extractuncompress(src_path, dest_path)
     close(tar)
     
     return dir
+end
+
+
+#### WIP assign it to DatasetTrait when ready, otherwise it'll show up in findtrait().
+
+struct NMRResults2023 #<: DatasetTrait
+    DOI::String
+end
+
+function NMRResults2023()
+    return NMRResults2023("WIP")
 end
