@@ -6,7 +6,7 @@ root_data_path = DS.getdatapath(DS.NMR2023())
 @show readdir(root_data_path)
 println()
 
-all_structs = DS.findtrait("wing")
+all_structs = DS.findtrait("this is not a data set name")
 @show all_structs
 println()
 

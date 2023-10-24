@@ -1,7 +1,7 @@
 name = "PublicationDatasets"
 uuid = "17766f69-17be-4aec-8093-a6905606c372"
 authors = ["Roy Chih Chung Wang"]
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"

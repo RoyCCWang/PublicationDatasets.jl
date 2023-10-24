@@ -1,6 +1,6 @@
 function findtrait(query_DOI::String)
 
-    struct_list = getalltraits
+    struct_list = getalltraits()
 
     inds = findall(xx->xx.DOI==query_DOI, struct_list)
 
