@@ -23,6 +23,7 @@ Please cite the individual datasets if you use them in your work. The citation i
 
 ## Data sets
 [NMR 2023](https://doi.org/10.5281/zenodo.8174261)
+DOI: `10.5281/zenodo.8174261`
 ```julis
 import PublicationDatasets as DS
 root_data_path = DS.getdatapath(DS.NMR2023(); overwirte = false)
