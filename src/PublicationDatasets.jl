@@ -10,6 +10,7 @@ include("LUT.jl")
 
 export getdatapath,
 findtrait,
+getalltraits,
 NMR2023
 
 end # module PublicationDatasets
