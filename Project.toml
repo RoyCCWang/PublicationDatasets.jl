@@ -1,0 +1,9 @@
+name = "PublicationDatasets"
+uuid = "17766f69-17be-4aec-8093-a6905606c372"
+authors = ["Roy Chih Chung Wang"]
+version = "0.1.0"
+
+[deps]
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
+Tar = "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
